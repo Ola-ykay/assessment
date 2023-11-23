@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProductPage.module.css";
 import Products from "../Product/Product";
-import Rating from "../ProductsPage/Rating";
+// import Rating from "../ProductsPage/Rating";
 import CartButton from "./CartButton";
 
 const ProductPage = () => { 
@@ -33,7 +33,7 @@ const ProductPage = () => {
                
                 <p className={styles.product_desc}>{product.description}</p>
                 <div className={styles.rating}>
-                  <Rating />
+                  {/* <Rating /> */}
                   <span>(91)</span>
                 </div>
                 <CartButton />
